@@ -25,7 +25,7 @@ CREATE TABLE usuarios (
     nome VARCHAR(100),
     sobrenome VARCHAR(100),
     dataNascimento DATE,
-    telefone INT,
+    telefone VARCHAR(255),
     sexo CHAR(1),
     endereco VARCHAR(255),
     login VARCHAR(50) UNIQUE,
